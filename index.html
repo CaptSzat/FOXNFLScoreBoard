@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ScoreBoard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="inner-body">
+        <div class="fox-scoreboard">
+            <div class="left-ribbon" id="leftRibbon"></div>
+            <div class="center-scoreboard-outer">
+                <div class="center-scoreboard-inner">
+                    <div class="left-timeouts" id="LT">
+                        <div class="timeoutbox" id="LTO1"></div>
+                        <div class="timeoutbox" id="LTO2"></div>
+                        <div class="timeoutbox" id="LTO3"></div>
+                    </div>
+                    <div class="left-score-outer" id="LS">
+                        <div class="left-score-inner">
+                            <p class="score" id="LScore">25</p>
+                            <p class="record">6-2</p>
+                            <img src="./SVG/Cincinnati_Bengals_logo.svg" alt="" srcset="" class="logo" id="LLogo">
+                        </div>
+                    </div>
+                    <div class="right-score-outer" id="RS">
+                        <div class="right-score-inner">
+                            <p class="score" id="RScore">19</p>
+                            <p class="record">6-2</p>
+                            <img src="./SVG/New_England_Patriots_logo.svg" alt="" srcset="" class="logo" id="RLogo">
+                        </div>
+                    </div>
+                    <div class="right-timeouts" id="RT">
+                        <div class="timeoutbox" id="RTO1"></div>
+                        <div class="timeoutbox" id="RTO1"></div>
+                        <div class="timeoutbox" id="RTO1"></div>
+                    </div>
+                </div>
+                <div class="clock-outer">
+                    <div class="time-remaining"></div>
+                    <div class="snap-clock"></div>
+                    <div class="position"></div>
+                </div>
+            </div>
+            <div class="right-ribbon" id="rightRibbon"></div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

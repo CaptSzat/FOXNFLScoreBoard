@@ -1,0 +1,27 @@
+.TL{
+    background-color: red;
+}
+.TR{
+    background-color: orange;
+}
+body{
+    background-color: blue;
+}
+.choice{
+    display: flex;
+}
+.teams{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+}
+.TL, .TR{
+    width: 100%;
+    margin-right: 30px;
+    border: 10px solid;
+}
+.left .right{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
